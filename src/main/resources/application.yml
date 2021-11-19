@@ -1,0 +1,10 @@
+app:
+  id: demo
+
+apollo:
+  bootstrap:
+    enabled: true
+    namespaces: CENTER.apollo.demo
+  config-service: http://47.102.127.243:7001
+server:
+  port: 7001
